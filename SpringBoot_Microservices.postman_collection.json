@@ -1,0 +1,85 @@
+{
+	"variables": [],
+	"info": {
+		"name": "SpringBoot_Microservices",
+		"_postman_id": "8f067e34-530b-e829-27f1-663929aad83a",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "UserService",
+			"description": "",
+			"item": [
+				{
+					"name": "Get User",
+					"request": {
+						"url": "http://localhost:9191/users/1",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Save User",
+					"request": {
+						"url": "http://localhost:9191/users/",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\n   \"firstName\": \"Chaitanya\",\n   \"lastName\": \"Jadhav\",\n   \"email\": \"D02\",\n   \"departmentId\": \"1\"\n    \n}"
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "DepartmentService",
+			"description": "",
+			"item": [
+				{
+					"name": "Get Department",
+					"request": {
+						"url": "http://localhost:9191/departments/1",
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Save Department",
+					"request": {
+						"url": "http://localhost:9191/departments/",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\n   \"departmentName\": \"Admin\",\n   \"departmentAddress\": \"abc\",\n   \"departmentCode\": \"D01\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
