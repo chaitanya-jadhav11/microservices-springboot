@@ -22,4 +22,8 @@ http://localhost:9295/hystrix
 Zipkin server
 http://127.0.0.1:9411/
 
+API Gateway  
+http://localhost:9191  
+
+
 -----------------------------------------------------------------
