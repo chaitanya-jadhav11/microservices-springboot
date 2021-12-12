@@ -1,7 +1,7 @@
 # microservices-springboot
 ------------------------------------------------------------
 Technology/framework/jar used for this application :-
-Java 8
+Java 8 /n
 Spring-boot
 Service Registry
 API Gateway
