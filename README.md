@@ -1,14 +1,14 @@
 # microservices-springboot
 ------------------------------------------------------------
-Technology/framework/jar used for this application :-
-Java 8 /n
-Spring-boot
-Service Registry
-API Gateway
-Hystrix Dashboard
-Cloud Config Server
-GitHub Repo for Config Server
-Zipkin and Sleuth
+Technology/framework/jar used for this application :-  
+Java 8   
+Spring-boot  
+Service Registry  
+API Gateway  
+Hystrix Dashboard  
+Cloud Config Server  
+GitHub Repo for Config Server  
+Zipkin and Sleuth  
 
 
 Local URL used for this microservices-springboot application:-
